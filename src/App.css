@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  background-color: #a0a2a4;
+  padding: 1rem;
+  border: 1px solid #cbd5e0;
+}
+
+.searchBar {
+  margin-bottom: 1rem;
+  background-color: #bee3f8;
+  padding: 1rem;
+}
+
+.searchInput {
+  border: 1px solid #a0aec0;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.checkboxLabel {
+  margin-left: 0.5rem;
+}
+
+.productTableContainer {
+  padding: 0.5rem;
+  background-color: rgb(178, 178, 244);
+}
+
+.productTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableHeading {
+  color: rgb(8, 8, 8); /* White text */
+  padding: 0.5rem;
+}
+
+.categoryRow {
+  background-color: #9ae6b4; /* Light green */
+}
+
+.categoryHeading {
+  background-color: #6ee7b7; /* Light green */
+  color: #1a202c; /* Dark gray */
+  padding: 0.5rem;
+}
+
+.fruitRow {
+  background-color: #fde68a; /* Light yellow */
+}
+
+.vegetableRow {
+  background-color: #fde68a; /* Light blue */
+}
+
+.productRow {
+  background-color: #f0f0f0; /* Light gray */
+}
+
+.redText {
+  color: red;
+}
+
+.productName,
+.productPrice {
+  padding: 0.5rem;
+  border: 1px solid #8c94a6;
+}
